@@ -29,7 +29,7 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 
 # TODO(jiyong) These might be SoC specific.
-BOARD_ROOT_EXTRA_FOLDERS += firmware firmware/radio persist
+BOARD_ROOT_EXTRA_FOLDERS += bt_firmware firmware firmware/radio persist
 BOARD_ROOT_EXTRA_SYMLINKS += /vendor/lib/dsp:/dsp
 BOARD_ROOT_EXTRA_SYMLINKS += /vendor/firmware_mnt/image:/firmware/image
 BOARD_ROOT_EXTRA_SYMLINKS += /vendor/firmware_mnt/verinfo:/firmware/verinfo
